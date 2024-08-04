@@ -189,7 +189,7 @@ section .video_container video {
   width: 100%;
   top: 38%;
   left: 50%;
-
+  transform: translate(-50%, -50%);
   text-align: center;
   color: #fff;
 }
@@ -230,10 +230,7 @@ section .video_container video {
   height: auto;
 }
 
-.container .card-container .product-item img:hover {
-  width:100%;
-  height: auto;
-}
+
 
 .container .card-container .product-item h3 {
   font-size: 1.7rem;
@@ -651,8 +648,9 @@ div.video-player iframe {
     font-size: 20px;
     position: absolute;
     width: 100%;
-    top: 44%;
+    top: 60%;
     left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
   }
@@ -751,6 +749,9 @@ div.video-player iframe {
 
   
 
+
+
+
 @media (max-width: 480px) and (min-width:320px) {
   .container .card-container .product-item {
     width: 98%;
@@ -774,8 +775,9 @@ div.video-player iframe {
     font-size: 20px;
     position: absolute;
     width: 100%;
-    top: 50%;
+    top: 60%;
     left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
   }
