@@ -647,6 +647,17 @@ div.video-player iframe {
     font-size: 21px;
     margin-bottom: 20px;
   }
+  .video_container .overlay_text {
+    font-size: 20px;
+    position: absolute;
+    width: 100%;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+    
 
   /* Card container */
  .container .card-container .product-item{
