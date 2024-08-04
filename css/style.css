@@ -189,7 +189,7 @@ section .video_container video {
   width: 100%;
   top: 38%;
   left: 50%;
-  transform: translate(-50%, -50%);
+
   text-align: center;
   color: #fff;
 }
@@ -653,7 +653,6 @@ div.video-player iframe {
     width: 100%;
     top: 44%;
     left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
   }
@@ -777,7 +776,6 @@ div.video-player iframe {
     width: 100%;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
   }
