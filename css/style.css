@@ -756,7 +756,7 @@ div.video-player iframe {
   }
 
   div.search-bar:focus-within {
-    width: 50%;
+    width: 65%;
     border-color: var(--main-color);
   
   }
@@ -764,7 +764,7 @@ div.video-player iframe {
     font-size: 20px;
     position: absolute;
     width: 100%;
-    top: 42%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
